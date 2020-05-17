@@ -29,7 +29,7 @@ namespace ProjetoPedido.Entities
             return Produto.NomeProduto
                 + ", $"
                 + Preco.ToString("F2", CultureInfo.InvariantCulture)
-                + ", Quantity: "
+                + ", Quantidade: "
                 + Quantidade
                 + ", Subtotal: $"
                 + SubTotal().ToString("F2", CultureInfo.InvariantCulture);

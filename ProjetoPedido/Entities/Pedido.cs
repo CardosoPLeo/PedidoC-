@@ -49,10 +49,10 @@ namespace ProjetoPedido.Entities
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("Data do pedido: " + Moment.ToString("dd/MM/yyyy HH:mm:ss"));
+            sb.AppendLine("Data do Pedido: " + Moment.ToString("dd/MM/yyyy HH:mm:ss"));
             sb.AppendLine("Status do Pedido: "+ Status);
             sb.AppendLine("Cliente: " + Cliente);
-            sb.AppendLine("Itens do pedido: ");
+            sb.AppendLine("Itens do Pedido:");
             foreach(ProdutoPedido produto in Produtos)
             {
                 sb.AppendLine(produto.ToString());
